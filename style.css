@@ -11,6 +11,10 @@ table{
   border: 5px solid rgb(184, 41, 41);
 }
 
+img{
+  width: 25%;
+  height: auto;
+}
 
 .center{
   display: block;
