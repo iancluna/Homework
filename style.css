@@ -9,12 +9,16 @@ hr{
 
 table{
   border: 5px solid rgb(184, 41, 41);
+  border-collapse: collapse;
+}
+
+td, th{
+  border:none;
 }
 
 img{
   width: 25%;
   height: auto;
-  text-align:center;
 }
 
 .center {
