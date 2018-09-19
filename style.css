@@ -4,26 +4,21 @@ p{
 }
 
 hr{
-  margin-top: 0px; margin-bottom:0px;
+    margin-top: 0px; margin-bottom:0px;
 }
 
 table{
-  border: 5px solid rgb(184, 41, 41);
-  border-collapse: collapse;
+    border: 5px solid rgb(184, 41, 41);
+    border-collapse: collapse;
 }
 
-td, th{
-  border:none;
-}
-
-img{
-  width: 25%;
-  height: auto;
+td,th{
+    border:none;
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
 }
