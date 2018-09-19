@@ -13,61 +13,38 @@
 <img src="https://i.pinimg.com/originals/15/b0/d2/15b0d2d247c4686faff5326cadbe152b.jpg" class="center">
 &nbsp;&nbsp;
 
-<div>
-    <table cellpadding='3'; border=5px;">
-        <tr>
-            <th style="width:250px">About Me</th>
-            <th style="width:250px">Contact Me</th> 
-        </tr>
-        <tr>
-            <td><u><i><b>Education</b></i></u></td>
-            <td>
-                <form action="action_page.php">
-                    <label for="fname">Name</label>
-                    <input type="text" id="fname" name="firstname">
-                        
-                    <label for="email">E-mail</label>
-                    <input type="text" id="email" name="email">
-                        
-                    <label for="subject">Message</label>
-                    <textarea id="subject" name="subject"></textarea>
-                    
-                    <input type="submit" value="Submit">
-                </form>
-            </td>
-        </tr>
-        <tr>
-            <td>2018, BS Business Administration, MIS</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td><u><i><b>Skills</b></i></u></td>
-            <td></td>
-        </tr>
-        <tr>
-                <td>    
-                    <OL>
-                        <li>Python</li>
-                        <li>SQL</li>
-                        <li>Data Modeling</li>
-                    </OL>
-                </td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><u><i><b>Expectation for this course</b></i></u></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>
-                    I would like to learn Angular and best practices of Web design. I would like to learn more about coding in html, css, and javascript.
-                </td>
-                <td></td>
-        </tr>
-    </table>
-</div>
+<table>
+    <th><h2>About Me</h2>
+        <p1>Education</p1><br/>
+        <p2>2018, BS Business Administration, MIS</p2><br/><br/>
+        <p1>Skills</p1>
+        <ol>
+            <li>Python</li>
+            <li>SQL, Oracle</li>
+            <li>Data Modeling</li>
+        </ol>
+        <p1>Expectations for this course</p1><br/><br/>
+        <p2>I would like to learn Angular, Web Design, and how to build a website. I would also like to learn the best practices for coding in HTML, CSS, and javascript.</p2>
+    </th>
+
+    <th valign="top"><h2>Contact Me</h2>
+        <div class="container">
+            <form action method="post">
+                <label for="name">Name:</label><br/>
+                <input type="text" name="name" id="name"><br/><br/>
+                
+                <label for="Email">Email:</label><br/>
+                <input type="text" name="Email" id="email"><br/><br/>
+
+                <label for="Message">Message:</label><br/>
+                <textarea name="message" rows="3" cols="40" id="message"></textarea><br/>
+                <input type="submit" name="submit" value="Send your message">
+            </form>
+        </div>
+
+    </th>
+</table>
 
 </body>
-
 
 </html>
